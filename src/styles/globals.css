@@ -24,6 +24,9 @@ body {
   margin-inline: auto;
 }
 
+.perspective { perspective: 1000px; }
+.backface-hidden { backface-visibility: hidden; }
+
 
 @media (max-width: 768px) {
   .container {
