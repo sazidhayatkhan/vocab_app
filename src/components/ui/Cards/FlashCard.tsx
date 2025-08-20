@@ -23,7 +23,7 @@ const FlashCard = ({ word, definition, translation }: FlashCardProps) => {
       >
         {/* Front Side */}
         <div className="absolute inset-0 bg-white rounded-xl shadow-xl flex items-center justify-center backface-hidden">
-          <p className="text-center font-bold text-2xl">{word}</p>
+          <p className="text-center font-bold text-2xl text-gray-700">{word}</p>
           <button
             className="absolute bottom-[12px] right-[15px] pointer-events-auto"
             onClick={(e) => {
